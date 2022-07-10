@@ -18,7 +18,8 @@
 <form on:submit|preventDefault={onSubmit} class="flex justify-center px-4 py-8">
   <div class="flex flex-col gap-4">
     <label for="message" class="text-center">Message</label>
-    <input  type="text" id="message" name="message" class="border-2 border-blue-400 rounded-md outline-blue-600 p-2">
-    <button class="text-white bg-blue-700 p-2 rounded-md">Submit</button>
+    <input  type="text" id="message" name="message" 
+      class="border-2 border-blue-400 rounded-md outline-blue-600 caret-blue-600 p-2 text-blue-800">
+    <button class="text-white text-xl bg-blue-700 p-2 rounded-md">Submit</button>
   </div>
 </form>
