@@ -6,11 +6,11 @@
     const message  = formData.get("message");
 
     if (message.length >= 8) {
-      displayALert(`message correctly for: ${message}`, ALERT_TYPE.SUCCESS, 2000);
+      displayALert(`message correctly for: ${message}`, ALERT_TYPE.SUCCESS, 9000);
     } else if(message.length === 0) {
-      displayALert('write message', ALERT_TYPE.INFO, 2000);
+      displayALert('write message', ALERT_TYPE.INFO, 9000);
     } else {
-      displayALert(`short message for: ${message}`, ALERT_TYPE.DANGER, 2000);
+      displayALert(`short message for: ${message}`, ALERT_TYPE.DANGER, 9000);
     }
 	}
 </script>
